@@ -1,0 +1,27 @@
+@import "variables";
+
+.gameColor {
+    padding-top: 3rem;
+    h2 {
+        padding-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .phone {
+        img {
+            width: 80%;
+        }
+    }
+    .cover {
+        width: 120%;
+        margin-left: -10%;
+        margin-right: -10%;
+        box-shadow: 2px 2px 10px $optional-clr;
+    }
+    .coding {
+        padding-top: 3rem;
+        img {
+            margin-top: 3rem;
+            width: 100%;
+        }
+    }
+}

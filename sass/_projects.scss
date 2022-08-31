@@ -1,0 +1,57 @@
+@import "variables";
+
+#projects {
+    width: 100%;
+    #github {
+        color: $live-clr;
+    }
+    .bg {
+        border-radius: 20px;
+        color: white;
+        z-index: -1;
+        margin-top: 2rem;
+        background-color: $primary-clr;
+        margin-top: -100px;
+        padding: 4rem 2rem 3rem 2rem;
+    }
+    
+    .row {
+        padding-top: 3rem;
+        .card {
+            color: black;
+            max-width: 500px;
+            margin: auto;
+            border: none;
+            box-shadow: 2px 2px 10px $optional-clr;
+            border-radius: 20px;
+            justify-content: center;
+            align-items: center;
+            img {
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+            .btn {
+                color: white;
+                background-color: $live-clr;
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+        }
+    }
+}
+@media (min-width: 750px) {
+
+    #projects {
+      
+        .bg {
+            margin-top: -180px;
+            padding: 4rem 2rem;
+            margin-left: 6rem;
+            margin-right: 6rem;
+        }
+        h2 {
+            margin-top: 5rem;
+        }
+    
+    }
+}

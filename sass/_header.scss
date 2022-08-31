@@ -1,0 +1,46 @@
+@import "variables";
+
+header {
+    color: black;
+    padding-top: 3rem;
+    #rastreator {
+        color: $live-clr;
+    }
+    ion-icon {
+        color: $primary-clr;
+        font-size: 35px;
+        padding-right: 1rem;
+        padding-top: 1rem;
+    }
+    .logo {
+        margin: 0;
+        padding-bottom: 2rem;
+        img {
+            max-width: 50px;
+            margin: 0;
+        }
+    }
+}
+
+@media (min-width: 821px) {
+    header {
+        padding-top: 8rem;
+        .logo {
+            display:none !important;
+        }
+    }    
+}
+
+img {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    header {
+        margin-left: 8rem;
+    }
+    img {
+        width: 80%;
+    }
+}
+

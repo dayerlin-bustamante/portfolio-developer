@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+@import "variables";
+@import "navMobile";
+@import "navDesktop";
+@import "bannerCard";
+@import "header";
+@import "projects";
+@import "skills";
+@import "gameColor";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    font-family: 'Rubik', sans-serif;
+    background-color: white;
+}
+
+p {
+    font-size: 16px;
+    @media (min-width: 820px) {
+        font-size: 20px;
+       }
+}
+
+header {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#space {
+    background-color: white;
+    padding-bottom: 5rem;
+}
+/* COPYRIGTH */
+.copyrigth {
+    position: fixed;
+    bottom: 50%;
+    right: -4%;
+    transform: rotate(90deg);
+    color: $optional-clr;
+    font-size: 16px;
+    &:hover{
+        color: $primary-clr;
+    }
+    @media (max-width: 900px) {
+        display:none !important;
+       }
+}
+/* SCROLL UP */
+.scroll-up {
+    @media (max-width: 821px) {
+        display:none !important;
+       }
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    cursor: pointer;
+}
+
+.up-arrow {
+    font-size: 2rem;
+    background-color: $live-clr;
+    border-radius: 50%;
+    color: white;
+}
+
+@media (min-width: 992px) {
+    main {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+    header {
+        padding-left: 2rem;
+        padding-right: 8rem;
+    }
+}
+

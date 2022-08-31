@@ -1,0 +1,128 @@
+@import "variables";
+
+#skills {
+    padding: 2rem 2rem;
+    h2 {
+        padding-top: 4rem;
+    }
+    ul {
+        padding-top: 1rem;
+        li {
+            p {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    .span-skills{
+        color: $live-clr;
+    }
+    #key-accomplishments {
+        padding-left: 0;
+    }
+    #hard-skills {
+        h2 {
+            margin-bottom: 2rem;
+        }
+        .list-nav {
+            margin-bottom: 1rem;
+        }
+        .scrollspy-list {
+            ion-icon {
+                font-size: 50px;
+                margin-bottom: 3rem;
+            }
+            .logo-css {
+                color: rgb(0, 0, 211);
+            }
+            .logo-html5 {
+                color: orangered;
+            }
+            .logo-javascript {
+                color: yellow;
+                background-color: black;
+            }
+            .logo-git {
+                color: orangered;
+            }
+            .logo-github {
+                color: black;
+            }
+            .logo-figma {
+                color: lightcoral;
+            }
+            .logo-sketch {
+                color: orange;
+            }
+            .logo-nodejs {
+                color: green;
+            }
+            .logo-sass {
+                color: palevioletred;
+            }
+            .logo-wordpress {
+                color: rgb(2, 2, 140);
+            }
+            .logo-npm {
+                color: red;
+            }
+            .logo-bitbucket {
+                color: blue;
+            }
+        }
+    }
+    .soft-skill {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        padding: 1rem;
+        margin-top: 2rem;
+        box-shadow: 2px 2px 10px $optional-clr;
+        ion-icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+            color: $primary-clr;
+        }
+        p {
+            font-size: 12px;
+            margin-bottom: 0;
+            color: $primary-clr;
+            text-align: center;
+        }
+    }
+    
+}
+@media (min-width: 820px) {
+    #skills {
+        padding: 3rem 6rem;
+        h2 {
+            margin-top: 0;
+            margin-bottom: 3rem;
+        }
+        #hard-skills {
+            padding-top: 2rem;
+            h2 {
+                margin-bottom: 4rem;
+            }
+            .list-nav {
+                padding-right: 3rem;
+            }
+            .scrollspy-list {
+                #list-item-1 {
+                    margin-top: 0;
+                }
+            }
+        }
+        #key-accomplishments {
+            padding-right: 5rem;
+        }
+        #soft-skills {
+            margin-top: 2rem;
+            .soft-skill {
+                padding: 3.2rem 1rem;
+            }
+        }
+    }
+
+}
