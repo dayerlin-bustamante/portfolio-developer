@@ -10,7 +10,8 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     bottom: 0;
     position: fixed;
     z-index: 5000;

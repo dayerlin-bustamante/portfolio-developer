@@ -1,0 +1,38 @@
+[
+    {
+        "title": "App Weather",
+        "description": "This project was made with vue (api composition) + vite.",
+        "img": "./img/weather-app.webp",
+        "url": "https://weather-app-day.netlify.app/"
+    },
+    {
+        "title": "Landing Rastreator",
+        "description": "Layout of the opinions page for the visualization of comments ekomi.",
+        "img": "./img/opiniones-rastreator.webp",
+        "url": "https://www.rastreator.com/opiniones-rastreator"
+    },
+    {
+        "title": "Clone of Instagram",
+        "description": "At this moment this project is being built. estimated date: 10 Jan 2023.",
+        "img": "./img/build.gif",
+        "url": "#"
+    },
+    {
+        "title": "Web design/code",
+        "description": "First web page made with wordpress through the elementor editor.",
+        "img": "./img/decoryde.webp",
+        "url": "https://decoryde.com"
+    },
+    {
+        "title": "Responsive Webs",
+        "description": "The first responsive websites made in CSS and HTML for mobile and desktop.",
+        "img": "./img/web-responsive.webp",
+        "url": "https://github.com/dayerlin-bustamante/HTML5-CSS"
+    },
+    {
+        "title": "Game Color",
+        "description": "Final project Powercoders/Hackaboss. Html Css and JavaScript.",
+        "img": "./img/game-color.webp",
+        "url": "https://juego-adivinacolor.netlify.app/"
+    }
+]
